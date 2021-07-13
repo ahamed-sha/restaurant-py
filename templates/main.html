@@ -5,7 +5,7 @@
 <form action="#" method="post">
 
 <label>Select restaurant: </label>
-<select name=restaurants method="GET"  action="/restaurants">
+<select name=restaurants method="GET"  action="/menu/{{restid}}">
     {% for res in restaurant_list %} {{res}}
     <option value= "{{res[0]}}" SELECTED>  {{res[0]}}
     </option>

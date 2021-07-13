@@ -96,8 +96,8 @@ if __name__ == '__main__':
   ##tests
   #fetch_restaurants()
   #fetch_menu_by_restaurantid("2")
-  order = Order("1", "1", 1, 1)
-  insert_order(order)
+  #order = Order("1", "1", 1, 1)
+  #insert_order(order)
 
   #web-application
-  #app.run()
+  app.run()
