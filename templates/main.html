@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %} My Restaurant {% endblock %}
+
+{% block content %}
+<form action="#" method="post">
+
+<label>Select restaurant: </label>
+<select name=restaurants method="GET"  action="/restaurants">
+    {% for res in restaurant_list %} {{res}}
+    <option value= "{{res[0]}}" SELECTED>  {{res[0]}}
+    </option>
+    {% endfor %}
+</select>
+
+</form>
+{% endblock %}
