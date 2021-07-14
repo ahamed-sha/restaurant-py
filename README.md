@@ -1,22 +1,10 @@
-# task-mgmt-service
-backend for the task mgmt tool
+# online-restaurant
 
 Description of the project:
-
-
-
+Simple restaurant online food order program
 
 
 Dependency:
 ```python
 pip install -r requirements.txt
 ```
-
-for mac book
-```python
-/usr/local/bin/python3 -m pip install -r requirements.txt
-```
-
-## Authors:
-Zee  
-Ahmed
